@@ -40,17 +40,17 @@ CAPTION_LANGUAGES = [
     "Urdu",
 ]
 
-UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
+UPDATE_CAPTION = """<blockquote><b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b></blockquote> 
 
 🎬 <b>{} {}</b>
-🔰 <b>Quality:</b> {}
+🎞 <b>Quality:</b> {}
 🎧 <b>Audio:</b> {}
 
-<b>✨ Telegram Files ✨</b>
+<b><i>♻️Telegram Files 🍿</i></b>
 
 {}
 
-<blockquote>〽️ Powered by @Jisshu_bots</b></blockquote>"""
+<blockquote>♻️ Powered by @CineZoneOfficial</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
