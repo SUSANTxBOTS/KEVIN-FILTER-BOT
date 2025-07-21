@@ -108,7 +108,7 @@ async def group_search(client, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ 😉", url=https://t.me/NOBITA_MOVIES_SEARCH
+                                    "ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ 😉", url=MOVIE_GROUP_LINK
                                 )
                             ]
                         ]
