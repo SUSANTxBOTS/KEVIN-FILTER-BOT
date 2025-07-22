@@ -38,8 +38,8 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "0"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002719054927"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002395925284"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002395925284"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002719054927"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002719054927"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002719054927"))
@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "susant-botz")
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002882421915"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "0")
+request_channel = environ.get("REQUEST_CHANNEL", "-1002719054927")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
