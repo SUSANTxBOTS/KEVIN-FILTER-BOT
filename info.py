@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://dragonbytexmikey:v
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "susant-botz")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GRmongodb+srv://dragonbytexbotz:ZYivvnFytzvM9b5l@cluster0.w4qnbpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0OUP", "-1002882421915"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002882421915"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "0")
 REQUEST_CHANNEL = (
