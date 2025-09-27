@@ -109,7 +109,7 @@ admin_cmds - Bot Admin Commands
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/SUSANTxBOTS/KEVIN-FILTER-BOT&branch=main&name=KEVIN-FILTER-BOT)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/SUSANTxBOTS/KEVIN-FILTER-BOT&branch=main )
 </details>
 
 <details><summary>Deploy To Render</summary>
@@ -163,4 +163,5 @@ python3 bot.py
 <h1> <img src="https://files.catbox.moe/eps9v4.jpg" width="70px" style="border-radius: 50%"> ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
   
 [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@JISSHU_BOTS) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/JisshuTG) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@JISSHU-BOTS) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://www.instagram.com/jhaplustar?igsh=MW9neHowNWo1Ymt6NA==)
+
 
