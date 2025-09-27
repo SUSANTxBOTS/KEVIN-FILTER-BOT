@@ -136,7 +136,7 @@ START_IMG = (
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://files.catbox.moe/jl9u6f.jpg")
+    environ.get("PAYPICS", "https://envs.sh/GXX.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://files.catbox.moe/vzclp3.jpg"
@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://better-yettie-acxbots-bdfa5d7b.koyeb.app/")
+URL = environ.get("FQDN", "https://legislative-charlena-thehyper333-110f1d44.koyeb.app/")
 
 # Commands
 admin_cmds = [
