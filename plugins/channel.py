@@ -50,7 +50,7 @@ UPDATE_CAPTION = """<blockquote><b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b><
 
 {}
 
-<blockquote>♻️ Powered by @CineZoneOfficial</b></blockquote>"""
+<blockquote>♻️ Powered by @Movie_Era_z</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
@@ -336,3 +336,4 @@ def format_file_size(size_bytes):
             return f"{size_bytes:.2f} {unit}"
         size_bytes /= 1024
     return f"{size_bytes:.2f} PB"
+
