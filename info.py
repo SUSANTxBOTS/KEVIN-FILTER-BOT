@@ -130,11 +130,11 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://files.catbox.moe/gi3kmn.jpg https://files.catbox.moe/vzclp3.jpg",
+        "https://i.ibb.co/R4gbM9Sq/tmpldoggs58.jpg",
     )
 ).split()
-FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
+FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/v4RDQ8rK/tmpgermpbu4.jpg")
+REFER_PICS = (environ.get("REFER_PICS", "https://i.ibb.co/7xR2pS7N/tmpm48xpb0c.jpg")).split()
 PAYPICS = (
     environ.get("PAYPICS", "https://envs.sh/GXX.jpg")
 ).split()
@@ -164,7 +164,7 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download
-STREAM_MODE = bool(environ.get("STREAM_MODE", True))  # Set True or Flase
+STREAM_MODE = bool(environ.get("STREAM_MODE", False))  # Set True or Flase
 
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))
