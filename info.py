@@ -38,7 +38,7 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002826916062"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003179637105"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002758342066"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002758342066"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002758342066"))
@@ -68,24 +68,24 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+u0h_Du4Ua2hlNGFl")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/CineZone_Request")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", False)
+IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/OrbinexX_PFP/1342")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/OrbinexX_PFP/1342")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/OrbinexX_PFP/1342")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortloop.site")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API2", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortloop.site")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API3", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortloop.site")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
 THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
 
