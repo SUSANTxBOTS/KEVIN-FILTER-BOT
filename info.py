@@ -76,14 +76,14 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/OrbinexX_PFP/1342")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f")
+SHORTENER_API = environ.get("SHORTENER_API", "8a9695fa344490177749b689e4147813e2824834")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortloop.site")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f"
+    "SHORTENER_API2", "8a9695fa344490177749b689e4147813e2824834"
 )
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortloop.site")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "834fc88d5e9d6ab0ace2a0d5e11dc8b0b0df488f"
+    "SHORTENER_API3", "8a9695fa344490177749b689e4147813e2824834"
 )
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortloop.site")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
