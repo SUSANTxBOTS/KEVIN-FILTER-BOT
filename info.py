@@ -38,7 +38,7 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003179637105"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002252588078"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002758342066"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002758342066"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002758342066"))
@@ -68,7 +68,7 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+u0h_Du4Ua2hlNGFl")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/CineZone_Request")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", True)
+IS_VERIFY = is_enabled("IS_VERIFY", False)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/OrbinexX_PFP/1342")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/OrbinexX_PFP/1342")
