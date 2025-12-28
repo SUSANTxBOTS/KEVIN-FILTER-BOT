@@ -164,7 +164,7 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "371c10909d11f866a3a1786e3a43cd8e")
 
 # Online Streaming And Download
-STREAM_MODE = bool(environ.get("STREAM_MODE", False))  # Set True or Flase
+STREAM_MODE = bool(environ.get("STREAM_MODE", True))  # Set True or Flase
 
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))
@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "yumekoo")
+URL = environ.get("FQDN", "https://occasional-cleo-thehyper333-7dff9dd0.koyeb.app/")
 
 # Commands
 admin_cmds = [
